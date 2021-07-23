@@ -29,13 +29,13 @@ function renderLicenseLink(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ## Table of Contents:
-  1. [Description] (#description)
-  2. [Questions] (#questions)
-  3. [Installation] (#installation)
-  4. [Usage] (#usage)
-  5. [License] (#license)
-  6. [Contributing] (#contributing)
-  7. [Tests] (#tests)
+  1. [Description](#description)
+  2. [Questions](#questions)
+  3. [Installation](#installation)
+  4. [Usage](#usage)
+  5. [License](#license)
+  6. [Contributing](#contributing)
+  7. [Tests](#tests)
 
 
   ## Description
