@@ -1,7 +1,7 @@
 # Sample 2222
   ## Table of Contents:
-  1. [Description] (#description)
-  2. [Questions] (#questions)
+  1. [Description](#description)
+  2. [Questions](#questions)
   3. [Installation] (#installation)
   4. [Usage] (#usage)
   5. [License] (#license)
