@@ -71,7 +71,7 @@ function init() {
     inquirer.prompt(questions) 
     .then((response => {
      console.log('answer logged!')   
-     writeToFile( 'readme.md', response)
+     writeToFile( 'README.md', response)
     })
     )
 

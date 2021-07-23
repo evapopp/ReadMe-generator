@@ -14,7 +14,14 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return `##${license}`
+  const licenseLink = {
+    'Apache 2.0': '(https://opensource.org/licenses/Apache-2.0)',
+    'Boost Software License 1.0': '(https://www.boost.org/LICENSE_1_0.txt)',
+    'MIT': '(https://opensource.org/licenses/MIT)',
+    'Mozilla Public License 2.0': '(https://opensource.org/licenses/MPL-2.0)',
+    'Open Database License': '(https://opendatacommons.org/licenses/odbl/)'
+  }
+  return licenseLink[license]
 }
 
 // TODO: Create a function that returns the license section of README
@@ -50,6 +57,7 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
 
   ## Contributing 
   ${data.contribution}
