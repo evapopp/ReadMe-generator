@@ -1,4 +1,4 @@
-# Sample Read Me
+# ReadMe Generator
   ## Table of Contents:
   1. [Description](#description)
   2. [Questions](#questions)
@@ -10,27 +10,27 @@
 
 
   ## Description
-  This is where the user can describe their project
+  A command-line application that generates a professional ReadMe file based on user inputs using inquirer.
 
   ## Questions
   If you need to reach me with additional questions, contact me via: 
-  * Email: user@gmail.com
-  * Github Username: githubuser
+  * Email: evapopp8@gmail.com
+  * Github Username: evapopp
 
   ## Installation
-  This is where the user can describe how to install their application
+  Using Node.js through an application like VS Code, download npm and inquierer in your integrated terminal to install the application
 
   ## Usage
-  This is where the user can indicate how the app will be used
+  By inputing answers to the generated questions, the application returns a professional ReadMe file for user's app.
 
   ## License
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-  (https://www.boost.org/LICENSE_1_0.txt)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  (https://opensource.org/licenses/MIT)
 
   ## Contributing 
-  This is where the contributors of the app can be listed
+  Contributers will be as indicated by user.
 
   ## Tests
-  This is where tests for the app can be listed
+  Tests not yet set up.
 
   
